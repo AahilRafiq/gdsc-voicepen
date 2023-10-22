@@ -10,7 +10,7 @@ export default function LoadAudioFile({ handleSummarization }) {
 
   return (
     <div className="local-audio-loader">
-      <label class="custom-file-upload">
+      <label className="custom-file-upload">
         <input type="file" id="fileInput" onChange={addFile} />
         Choose File
       </label>

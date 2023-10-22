@@ -5,6 +5,7 @@ import Popup from "./components/Popup.jsx";
 import { useState } from "react";
 import { HfInference } from "@huggingface/inference";
 import { Routes , Route , Link} from "react-router-dom";
+import 'regenerator-runtime/runtime'
 
 export default function App() {
   const [isTokenReceived, setIsTokenReceived] = useState(false);
@@ -26,8 +27,8 @@ export default function App() {
         <Link className="nav-btn" to='/v2'> V2 </Link>
       </div>
       <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/v2" element={<Variant2/> }/>
+        <Route path="/" element={<Home Hf={Hf}/>}/>
+        <Route path="/v2" element={<Variant2 Hf={Hf}/> }/>
       </Routes>
     </>
   );
