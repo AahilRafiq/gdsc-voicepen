@@ -4,10 +4,23 @@
     flex-wrap: wrap;
 }
 
+.intro-text{
+    color: #fff;
+}
+
+.white-text{
+    color: #fff;
+}
+
+.displayer-text{
+    color: #04364A;
+}
+
 .result-displayer{
     padding: 1rem;
     flex-grow: 1;
-    margin: 1rem;
-    background-color: #DBE2EF;
-    border-radius: 1.5rem;
+    margin: 1.5rem;
+    box-shadow: 10px 10px black;
+    background-color: #fff;
+    /* border-radius: 1.5rem; */
 }

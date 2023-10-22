@@ -1,0 +1,35 @@
+.popup{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-container{
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 10px 10px black;
+    text-align: center;
+}
+
+.input-form{
+    border: 1px solid lightgrey;
+    /* border:none; */
+    border-radius: 0.4rem;
+    /* box-shadow: 5px 5px black; */
+    padding: 0.5rem;
+}
+
+.submit-btn{
+    background-color: #1746A2;
+    color: #fff;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem;
+    margin:0 0.5rem;
+}
