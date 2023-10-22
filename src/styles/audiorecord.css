@@ -1,8 +1,10 @@
 .audio-recorder-container{
-    display: flex;
+    display: inline;
     align-items: center;
     /* margin: 0 auto ; */
     justify-content: center;
     text-align: center;
     place-items: center;
+    /* box-shadow: 10px 10px black; */
+    
 }

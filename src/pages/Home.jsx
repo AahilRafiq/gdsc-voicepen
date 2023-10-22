@@ -2,9 +2,8 @@ import AudioRecord from "../components/AudioRecord.jsx";
 import { useState } from "react";
 import { getSummary, getTextFromSpeech } from "../utils/huggingFace.js";
 import DisplayResult from "../components/DisplayResult.jsx";
+import LoadAudioFile from "../components/LoadAudioFile.jsx";
 import "../styles/general.css";
-
-// const hf = new HfInference("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");
 
 export default function Home({ Hf }) {
   const [isRecordComplete, setIsRecordComplete] = useState(false);
@@ -36,7 +35,10 @@ export default function Home({ Hf }) {
         then summarizes it , press the button below to start recording
       </p>
 
-      <AudioRecord handleSummarization={handleSummarization} />
+      <div className="audio-handler-container">
+        <AudioRecord handleSummarization={handleSummarization} />
+        <LoadAudioFile handleSummarization={handleSummarization} />
+      </div>
       <DisplayResult
         textfromSpeech={textfromSpeech}
         textSummary={textSummary}

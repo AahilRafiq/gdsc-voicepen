@@ -1,3 +1,5 @@
+
+
 .result-container{
     display: flex;
     justify-content: space-around;
@@ -22,5 +24,35 @@
     margin: 1.5rem;
     box-shadow: 10px 10px black;
     background-color: #fff;
-    /* border-radius: 1.5rem; */
+}
+
+.audio-handler-container{
+    display: flex;
+    justify-content: center;
+}
+
+.local-audio-loader{
+    background-color: #fff;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    margin: 0 1rem;
+    display: inline;
+    text-align: center;
+    box-shadow: 4px 4px black;
+}
+.local-audio-loader:hover{
+    background-color: #64CCC5;
+}
+
+.audio-chooser{
+    background-color: #04364A;
+}
+
+.custom-file-upload {
+    display: inline-block;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
 }

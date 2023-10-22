@@ -2,6 +2,7 @@ import Home from "./pages/Home.jsx";
 import "./styles/general.css";
 import Popup from "./components/Popup.jsx";
 import { useState } from "react";
+import LoadAudioFile from "./components/LoadAudioFile.jsx";
 
 import { HfInference } from "@huggingface/inference";
 
