@@ -42,7 +42,7 @@ export default function Variant2(Hf){
       <p className="transcript">{transcript}</p>
       <div className="transcript-controls">
       <p>Microphone: {listening ? "on" : "off"}</p>
-        <button  className="control-btn" onClick={SpeechRecognition.startListening}>Start</button>
+        <button  className="control-btn" onClick={()=>SpeechRecognition.startListening({continuous:true , language : 'en-IN'})}>Start</button>
         <button  className="control-btn" onClick={SpeechRecognition.stopListening}>Stop</button>
         <button  className="control-btn" onClick={resetTranscript}>Reset</button>
         <button className="control-btn" >Summarize</button>
