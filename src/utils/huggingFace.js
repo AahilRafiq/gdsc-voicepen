@@ -11,7 +11,7 @@ async function getSummary(text , hf) {
     return await hf.summarization({
         model: 'facebook/bart-large-cnn',
         inputs: text ,
-        max_length : 150
+        max_length : text.length
     })
 }
 
