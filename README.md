@@ -1,6 +1,7 @@
 ### Voicepen project live : https://gdsc-voicepen.netlify.app/
 ![image](https://github.com/AahilRafiq/gdsc-voicepen/assets/128609469/59001034-585a-421e-a6e1-be3f17fdb1a5)
 
+### Demo video P1 : [Link](https://drive.google.com/file/d/1SKCxhwewNDJO6nRwpAcFYL32wKgTND94/view?usp=sharing) , P2 : [Link](https://drive.google.com/file/d/1SK6w-sFhTf6dLxYTTq6DmBH4w9JDgIls/view?usp=sharing)
 
 ### How it works :
 * This project utilises huggingface api for speech recognition and summarization - [link](https://huggingface.co/docs/huggingface.js/inference/README)
